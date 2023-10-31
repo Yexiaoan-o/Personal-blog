@@ -1,0 +1,146 @@
+.index-box {
+  background-color: #f4f5f5;
+  display: flex;
+  width: 80%;
+  max-width: 1280px;
+  margin: 10px auto 0;
+}
+
+.main-box {
+  flex: 1;
+  margin-right: 10px;
+  overflow: hidden;
+  border: 1px solid #ddeede;
+  background-color: #fff;
+  box-shadow: inset 0 0 5px #0000001a;
+}
+
+.articledetail-title {
+  text-align: center;
+  background-color: #fff;
+  padding-bottom: 10px;
+  border-bottom: 1px solid #ccc;
+}
+
+.remarks {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  margin-left: 20px;
+  margin-right: 20px;
+  color: #999;
+}
+
+.remarks b {
+  color: #666;
+}
+
+.introduce-html {
+  padding: 10px;
+  line-height: 26px;
+  color: #333;
+  font-size: 1.2rem;
+}
+
+.article-details {
+  overflow: hidden;
+  background-color: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  line-height: 26px;
+  color: #333;
+  min-height: 960px;
+}
+
+.article-details h2 {
+  border-left: 3px solid #ccc;
+  background-color: #f0f0f0;
+  padding: 10px;
+  color: #444;
+}
+
+.article-details h3 {
+  border-bottom: 1px dashed #ccc;
+  padding: 10px;
+  color: #444;
+}
+
+.article-details > p {
+  padding: 5px;
+  margin-top: 10px;
+  font-size: 1.2rem;
+}
+
+.article-details > ul {
+  margin-left: 40px;
+  margin-right: 40px;
+  padding: 10px;
+  list-style-type: circle !important;
+  line-height: 20px !important;
+  font-size: 1.2rem;
+}
+
+.article-details > ol {
+  font-size: 1.2rem;
+}
+
+.article-details blockquote {
+  padding: 10px;
+  line-height: 30px;
+  overflow: hidden;
+  background-color: #eff1f2;
+  border-left: 5px solid #ccc;
+  color: #888 !important;
+  border-radius: 0 !important;
+  font-weight: 550;
+}
+
+.article-details img {
+  width: 95% !important;
+  border-radius: 5px;
+  border: 1px solid #f0f0f0;
+  padding: 2px;
+  margin: 5px;
+}
+
+.left-box {
+  width: 320px;
+}
+
+code {
+  display: inline-block;
+  background-color: #f3f3f3;
+  border: 1px solid #333;
+  border-radius: 3px;
+  font-size: 1rem;
+  padding-left: 5px;
+  padding-right: 5px;
+  color: #4f4f4f;
+  margin: 0px 3px;
+}
+
+pre {
+  display: block;
+  background-color: #f3f3f3;
+  padding: 0.5rem !important;
+  overflow-y: auto;
+  font-weight: 300;
+  font-family: Menlo, monospace;
+  border-radius: 0.3rem;
+}
+pre {
+  background-color: #283646 !important;
+}
+pre > code {
+  border: 0px !important;
+  background-color: #283646 !important;
+  color: #fff;
+}
+
+.nav-title {
+  text-align: center;
+  color: #888;
+  border-bottom: 1px solid rgb(30, 144, 255);
+  margin-top: 10px;
+  font-size: 1.2rem;
+}

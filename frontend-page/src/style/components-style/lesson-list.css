@@ -1,0 +1,80 @@
+
+
+.lesson-container{
+  border-radius: 5px;
+  box-shadow: inset 0 0 5px #0000001a;
+  background-color: #fff;
+}
+
+
+.list-title {
+  font-size: 13px;
+  padding-top: 10px;
+  color: #888;
+  text-align: left;
+  padding-left: 10px;
+}
+
+.bl-list {
+  padding: 10px;
+}
+
+.list-b {
+  padding: 10px 20px 10px 10px;
+}
+
+.bl-list li:first-child {
+  border-top: 1px solid #f0f0f0;
+}
+.bl-list li:nth-child(odd) {
+  background-color: #f6f7f8;
+}
+
+.bl-list li span {
+  flex: 1;
+  display: inline-block;
+}
+.article-num {
+  color: #999;
+  width: 40px;
+}
+
+.article-a {
+  width: 80%;
+  max-width: 700px;
+}
+
+.article-view {
+  width: 65px;
+  color: #999;
+}
+
+.article-date {
+  color: #999;
+}
+
+
+
+li {
+  display: list-item;
+  text-align: -webkit-match-parent;
+}
+
+.bl-list>li>a {
+  display: flex;
+  padding: 10px 20px 10px 10px;
+  display: block;
+  height: 100%;
+}
+
+.lesson-container a {
+  text-decoration: none;
+  color: #333;
+}
+
+.bl-list>li>a:hover {
+  background-color: #f0f0f0;
+  text-decoration: none;
+  color: #3273dc;
+}
+

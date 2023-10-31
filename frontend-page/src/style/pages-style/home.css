@@ -1,0 +1,19 @@
+.home {
+  display: flex;
+  width: 90%;
+  max-width: 1440px;
+  margin: 10px auto 0;
+}
+
+.home-left {
+  width: 320px;
+}
+
+.home-center {
+  flex: 1;
+  margin-right: 10px;
+}
+
+.home-right {
+  width: 320px;
+}

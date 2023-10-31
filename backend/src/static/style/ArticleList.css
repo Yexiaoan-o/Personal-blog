@@ -1,0 +1,9 @@
+.list-div {
+width: 100%;
+}
+
+.ant-pagination {
+  margin-top: 5px;
+  margin-right: 5px;
+  text-align: right;
+}
