@@ -2,7 +2,7 @@ import React from "react";
 import Profile from "../components/Profile";
 import ArticleList from "../components/ArticleList";
 import VideoList from "../components/VideoList";
-import Footer from "../components/Footer";
+import Weather from "../components/Weather";
 import "../style/pages-style/home.css"
 
 export default function Home() {
@@ -10,6 +10,7 @@ export default function Home() {
     <div className="home">
       <div className="box home-left">
         <Profile />
+        <Weather />
       </div>
       <div className="box home-center">
         <ArticleList/>
