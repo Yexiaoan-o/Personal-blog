@@ -37,6 +37,7 @@ export default function Article() {
         const response = await axios(servicePath.getArticleById + params.id);
         setArticleContent(response.data.data[0]);
 
+
         const html = marked.parse(response.data.data[0].article_content);
         setParsedContent(html);
 

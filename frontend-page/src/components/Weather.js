@@ -9,7 +9,7 @@ function Weather() {
     desc: '',
     icon: ''
   })
-  useEffect( ()=>{ fetchWeatherData()},[])
+  useEffect( () =>{fetchWeatherData()},[])
 
   async function fetchWeatherData() {
     const data = await fetch(
